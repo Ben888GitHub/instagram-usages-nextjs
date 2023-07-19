@@ -12,3 +12,8 @@ Purpose & Common uses of Instagram Basic Display API
 - Get an IG User Access Token and permissions from an Instagram User
 - Get an Instagram user's profile
 - Get an Instagram user's images, videos, and albums 
+- -
+- Ways to use and exploit it: https://blog.hubspot.com/website/instagram-api-examples, https://taggbox.com/blog/7-interesting-ways-use-instagram-api/
+
+Instagram Embed
+- https://www.npmjs.com/package/react-social-media-embed
