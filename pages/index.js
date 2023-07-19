@@ -21,9 +21,9 @@ export default function Home({ profileResult, mediaResult }) {
 							height={500}
 							className=" h-auto  max-w-full rounded-lg"
 							alt={caption}
-							// priority
-							loading="lazy"
-							placeholder="empty"
+							priority
+							// loading="lazy"
+							// placeholder="empty"
 							src={media_url}
 							quality={50}
 						/>
