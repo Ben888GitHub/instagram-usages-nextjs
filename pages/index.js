@@ -25,7 +25,7 @@ export default function Home({ profileResult, mediaResult }) {
 							// loading="lazy"
 							// placeholder="empty"
 							src={media_url}
-							quality={50}
+							// quality={50}
 						/>
 						<p className="text-2xl">{caption}</p>
 						<p className="text-xl">{id}</p>
