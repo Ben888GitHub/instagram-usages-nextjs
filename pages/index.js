@@ -14,14 +14,14 @@ export default function Home({ profileResult, mediaResult }) {
 				<p className="text-3xl">Hello, {profileResult.username}</p>
 			</div>
 			<div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-				{mediaResult.data.map(({ caption, id, media_url }) => (
-					<div key={id}>
+				{mediaResult.data.map(({ caption, id, media_url }, idx) => (
+					<div key={idx}>
 						<Image
 							width={500}
 							height={500}
 							// className=" h-auto  max-w-full rounded-lg"
 							alt={caption}
-							priority
+							// priority
 							// loading="lazy"
 							// placeholder="empty"
 							src={media_url}
