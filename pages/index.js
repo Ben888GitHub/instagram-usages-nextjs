@@ -45,6 +45,8 @@ export const getStaticProps = async () => {
 		userMedia
 	);
 
+	// console.log(profileResult);
+
 	return {
 		props: { profileResult, mediaResult }
 	};

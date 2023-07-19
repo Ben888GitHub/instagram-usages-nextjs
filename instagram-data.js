@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export const getUserProfileAndMedia = async (userProfile, userMedia) => {
 	try {
-		const profileData = await axios.get(userProfile);
+		const profileData = axios.get(userProfile);
 		const mediaData = axios.get(userMedia);
 
 		const [profileResult, mediaResult] = await Promise.all([
@@ -11,6 +11,7 @@ export const getUserProfileAndMedia = async (userProfile, userMedia) => {
 		]);
 
 		// console.log(data);
+		console.log(userProfile);
 		return { profileResult: profileResult.data, mediaResult: mediaResult.data };
 
 		// return { profileResult, mediaResult };
