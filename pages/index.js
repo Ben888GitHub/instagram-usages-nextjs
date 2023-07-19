@@ -2,6 +2,8 @@ import Image from 'next/image';
 import { Inter } from 'next/font/google';
 import { getUserProfileAndMedia } from '@/instagram-data';
 import Link from 'next/link';
+import SocMedEmbed from '@/components/SocMedEmbed';
+
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home({ profileResult, mediaResult }) {
@@ -34,6 +36,7 @@ export default function Home({ profileResult, mediaResult }) {
 					</div>
 				))}
 			</div>
+			<SocMedEmbed />
 		</main>
 	);
 }
