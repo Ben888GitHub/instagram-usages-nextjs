@@ -3,6 +3,7 @@ Instagram Basic Display API
 - Overview: https://developers.facebook.com/docs/instagram-basic-display-api/overview
 - Getting started: https://developers.facebook.com/docs/instagram-basic-display-api/getting-started
 - Retrieve Profile along with Media: https://developers.facebook.com/docs/instagram-basic-display-api/guides/getting-profiles-and-media
+- Obtain Long-lived Access Token: https://docs.oceanwp.org/article/487-how-to-get-instagram-access-token
 
 My App connected with Instagram Dashboard
 - https://developers.facebook.com/apps/651261023689580/dashboard/
