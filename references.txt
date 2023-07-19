@@ -1,0 +1,9 @@
+Instagram Basic Display API
+- Intro: https://developers.facebook.com/docs/instagram-basic-display-api 
+- Overview: https://developers.facebook.com/docs/instagram-basic-display-api/overview
+
+
+Purpose & Common uses of Instagram Basic Display API
+- Get an IG User Access Token and permissions from an Instagram User
+- Get an Instagram user's profile
+- Get an Instagram user's images, videos, and albums 
