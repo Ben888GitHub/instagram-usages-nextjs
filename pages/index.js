@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { Inter } from 'next/font/google';
 import { getUserProfileAndMedia } from '@/instagram-data';
-import axios from 'axios';
+import Link from 'next/link';
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home({ profileResult, mediaResult }) {
@@ -27,7 +27,9 @@ export default function Home({ profileResult, mediaResult }) {
 							src={media_url}
 							quality={50}
 						/>
-						<p className="text-2xl">{caption}</p>
+						<Link href={id} className="text-2xl">
+							{caption}
+						</Link>
 						<p className="text-xl">{id}</p>
 					</div>
 				))}
