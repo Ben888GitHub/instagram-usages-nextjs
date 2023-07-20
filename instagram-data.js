@@ -11,7 +11,7 @@ export const getUserProfileAndMedia = async (userProfile, userMedia) => {
 		]);
 
 		// console.log(data);
-		// console.log(userProfile);
+		// console.log(mediaResult.data);
 		return { profileResult: profileResult.data, mediaResult: mediaResult.data };
 
 		// return { profileResult, mediaResult };
