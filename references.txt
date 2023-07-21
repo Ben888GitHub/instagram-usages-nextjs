@@ -11,6 +11,9 @@ My App connected with Instagram Dashboard
 My App connected to Secret Exploitator Instagram Meta Dashboard
 - https://developers.facebook.com/apps/941168690521888/dashboard/
 
+Blogs:
+- https://blog.devgenius.io/how-add-your-instagram-posts-to-your-react-project-e8527d2a7187
+
 Purpose & Common uses of Instagram Basic Display API
 - Get an IG User Access Token and permissions from an Instagram User
 - Get an Instagram user's profile
