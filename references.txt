@@ -21,3 +21,4 @@ Purpose & Common uses of Instagram Basic Display API
 Instagram Embed
 - https://www.npmjs.com/package/react-social-media-embed
 
+New References
